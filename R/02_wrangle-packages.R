@@ -25,6 +25,8 @@ apt_freqtable <- apt %>%
 ## YES overwrite the files that are there now
 ## they came from me (Jenny)
 ## they are just examples
+write_csv(apt_freqtable, here("data", "add-on-packages-freqtable.csv"))
+
 
 ## when this script works, stage & commit it and the csv files
 ## PUSH!
